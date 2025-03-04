@@ -1,0 +1,26 @@
+{
+  "name": "inizio",
+  "version": "1.0.0",
+  "main": "search.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-jest": "^27.0.0",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testMatch": [
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ]
+  }
+}

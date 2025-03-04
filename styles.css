@@ -1,0 +1,59 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #1e90ff;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #1e90ff;
+  border-radius: 5px;
+  width: calc(100% - 24px);
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #187bcd;
+}
+
+pre {
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-height: 300px; /* Nastavení maximální výšky */
+  overflow-y: auto; /* Přidání posuvníku */
+}
